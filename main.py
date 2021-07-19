@@ -188,7 +188,6 @@ def move_up(state,n):
         swap[x-1][y] , swap[x][y] = swap[x][y] , swap[x-1][y]                                       # Moving the agent one cell above
         return swap
 
-
 def move_down(state,n):
 
     swap = copy.deepcopy(state)
