@@ -147,7 +147,6 @@ def expand_node(node,n):                                                  # This
         temp_node3 = create_node(temp_state3,node,"right",node.moves+1) # The state is expanded with upward operation
         expanded_nodes.append(temp_node3)                               # Appending the expanded nodes in the list
     
-    
     temp_state = move_down(node.state,n)                              
     
     if (temp_state is not None):
