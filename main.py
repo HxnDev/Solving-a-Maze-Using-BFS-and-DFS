@@ -319,22 +319,25 @@ def main():
     else:
         print ("Total number of moves needed = ", result.moves)
 
-# Un-Comment the following lines to see the stepwise execution of the moves taken by the actor
-#        path = []
-#        path.append(result.state)
-#        current = result      
-#        flag = True     
-#        while (flag):
-#            parent = current.parent
-#            prev_state = parent.state
-#            path.append(prev_state)
-#            current = parent         
-#            if (prev_state == starting_state):
-#                flag = False              
-#        path.reverse()      
-#        for state in path:
-#            printMatrix(state)
-#            print()
+'''
+ Un-Comment the following lines to see the stepwise execution of the moves taken by the actor
+        path = []
+        path.append(result.state)
+        current = result      
+        flag = True     
+        while (flag):
+            parent = current.parent
+            prev_state = parent.state
+            path.append(prev_state)
+            current = parent         
+            if (prev_state == starting_state):
+                flag = False              
+        path.reverse()      
+        for state in path:
+            printMatrix(state)
+            print()
+'''
+
     print()
     print()
     print("######################################################################################################################")
@@ -349,27 +352,29 @@ def main():
         print ("Total number of moves needed = ", result1.moves)
         print()
         
-# Un-Comment the following lines to see the stepwise execution of the moves taken by the actor
-#        path1 = []
-#        path1.append(result1.state)
-#        current1 = result1
+'''
+ Un-Comment the following lines to see the stepwise execution of the moves taken by the actor
+        path1 = []
+        path1.append(result1.state)
+        current1 = result1
         
-#        flag1 = True
+        flag1 = True
         
-#        while (flag1):
-#            parent = current1.parent
-#            prev_state1 = parent.state
-#            path1.append(prev_state1)
-#            current1 = parent
+        while (flag1):
+            parent = current1.parent
+            prev_state1 = parent.state
+            path1.append(prev_state1)
+            current1 = parent
             
-#            if (prev_state1 == starting_state):
-#                flag1 = False
+            if (prev_state1 == starting_state):
+                flag1 = False
                 
-#        path1.reverse()
+        path1.reverse()
         
-#        for state in path1:
-#            printMatrix(state)
-#            print()
+        for state in path1:
+            printMatrix(state)
+            print()
+'''
 
 if __name__ == "__main__":
     main()
