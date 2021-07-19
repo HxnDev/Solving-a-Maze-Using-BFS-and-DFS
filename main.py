@@ -304,7 +304,6 @@ def dfs(start,n):
                         stack.append(node_array[k])                                         # Pushing the expanded nodes into the stack
 
         return None
-    
 
 ######################################################################################################################################
 
