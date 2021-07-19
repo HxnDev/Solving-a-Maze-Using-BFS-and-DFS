@@ -156,8 +156,6 @@ def expand_node(node,n):                                                  # This
 
     return expanded_nodes
 
-
-
 def move_left(state,n):
     swap = copy.deepcopy(state)
     idx,x,y = matrixToIndex(swap)                                                                   # Returning index of actor
